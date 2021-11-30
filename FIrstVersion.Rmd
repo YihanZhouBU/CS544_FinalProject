@@ -61,6 +61,7 @@ y <- list(
   title = "Score"
 )
 
+
 n = length(grades)
 
 p <- plot_ly(x = 1:n, y = grades, name = 'Quizzes', type = 'bar') %>%
@@ -102,5 +103,5 @@ plot_ly(data, y = ~Average_Quizzes, type="box", name = 'Avg_Quiz') %>%
 ```
 
 # Conclusions
-
+conclusionsssss
 Add conclusions about the analysis...
